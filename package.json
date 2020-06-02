@@ -5,7 +5,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
-    "lint": "eslint ./src/*.{js,svelte}"
+    "lint": "eslint ./src"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
@@ -18,7 +18,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-svelte3": "^2.7.3",
-    "husky": "^4.2.5",
+    "husky": "^3.0.9",
     "lint-staged": "^10.2.7",
     "node-sass": "^4.14.1",
     "postcss": "^7.0.30",
@@ -41,7 +41,7 @@
     }
   },
   "lint-staged": {
-    "*.{svelte}": [
+    "*.svelte": [
       "npm run lint"
     ]
   }

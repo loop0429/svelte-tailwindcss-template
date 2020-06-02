@@ -2,13 +2,6 @@
   import Tailwindcss from './Tailwindcss.svelte'
 
   export let name
-
-  if(name) {
-    console.log({name})
-  }
-
-  const test = 'test'
-  const test2 = 'test'
 </script>
 
 <style>
