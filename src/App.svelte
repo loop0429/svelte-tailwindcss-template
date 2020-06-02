@@ -1,7 +1,7 @@
 <script>
-  import Tailwindcss from "./Tailwindcss.svelte";
+  import Tailwindcss from './Tailwindcss.svelte'
 
-  export let name;
+  export let name
 </script>
 
 <style>
